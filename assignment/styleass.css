@@ -1,0 +1,94 @@
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+section{
+    color: rgb(250, 249, 246);
+    
+    margin-bottom: 10px;
+    
+}
+
+.first{
+    background-color: rgb(0, 39, 39);
+    padding: 0.1px 20px;
+    width: fit-content;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    position: relative;
+    
+}
+
+.second{
+    background-color: blueviolet;
+    padding: 0.1px 20px;
+    width: fit-content;
+    border-width: 5px;
+    border-color: rgb(255, 218, 9);
+    border-style: solid;
+    position: relative;
+}
+
+.third{
+    background-color: rgb(162, 0, 0);
+    padding: 0.1px 20px;
+    width: fit-content;
+    border-width: 5px;
+    border-color: rgb(68, 84, 255);
+    border-style: solid;
+    position: relative;
+}
+h4{
+    background-color: aliceblue;
+    width: fit-content;
+    position: absolute;
+    top: -20%;
+    right: 0px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    color: rgba(255, 0, 0, 0.452);
+}
+.second h4{
+    width: fit-content;
+    position: absolute;
+}
+.first h4{
+    width: fit-content;
+    position: absolute;
+}
+@media only screen and (min-width: 768px){
+    .container{
+        display: flex;
+        width: 90.7%;
+    }
+    .container h4{
+        top: -12%;
+    }
+    .second{
+        margin-left: 3px;
+    }
+}
+@media only screen and (min-width: 992px){
+    div{
+        display: flex;
+        width: 100%;
+    }
+    h4{
+        top: -21px;
+    }
+    .container h4{
+        top: -21px;
+    }
+    .third{
+        width: 40%;
+    }
+}
